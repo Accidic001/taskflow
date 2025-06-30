@@ -1,5 +1,6 @@
 import { StarIcon } from "@heroicons/react/24/solid";
 import {testimonials }from "../datas/testimonials";
+import Image from "next/image";
 
 export default function Testimonials() {
     return (
@@ -22,11 +23,13 @@ export default function Testimonials() {
                     <StarIcon key={i} className="h-5 w-5 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-700 dark:text-gray-300 mb-6 italic">"{testimonial.content}"</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-6 italic">&quot;{testimonial.content}&quot;</p>
                 <div className="flex items-center">
-                  <img 
+                  <Image
                     src={testimonial.avatar} 
                     alt={testimonial.name}
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full mr-4"
                   />
                   <div>

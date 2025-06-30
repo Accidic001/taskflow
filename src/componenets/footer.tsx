@@ -11,7 +11,7 @@ export default function Footer(){
                 <span className="font-bold text-xl">TaskFlow Pro</span>
               </div>
               <p className="text-gray-400 dark:text-gray-500">
-                Streamline your team's workflow with powerful project management tools.
+                Streamline your team&apos;s workflow with powerful project management tools.
               </p>
             </div>
             

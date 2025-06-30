@@ -13,7 +13,7 @@ export default function Hero() {
                 </span>
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
                   Streamline Your 
-                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Team's Workflow</span>
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Team&apos;s Workflow</span>
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
                   TaskFlow Pro helps teams collaborate better, manage projects efficiently, and deliver results faster with powerful automation and insights.
